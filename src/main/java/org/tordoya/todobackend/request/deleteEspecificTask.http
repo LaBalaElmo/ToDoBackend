@@ -1,0 +1,4 @@
+###
+@taskId=1
+DELETE http://localhost:8080/api/v1/task/delete/{{taskId}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqcnR0YXF1aWNoaXJpQGdtYWlsLmNvbSIsImlhdCI6MTcyMzMyMzUxOCwiZXhwIjoxNzIzOTIzNTE4fQ.F8IUu8UwRglsVfqtYt_rLmhKWwvHRYcpI3x8ohx2EMc

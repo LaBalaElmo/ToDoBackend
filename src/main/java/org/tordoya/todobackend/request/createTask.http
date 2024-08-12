@@ -1,0 +1,11 @@
+###
+@task=6
+POST http://localhost:8080/api/v1/task/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqcnR0YXF1aWNoaXJpQGdtYWlsLmNvbSIsImlhdCI6MTcyMzMyMzUxOCwiZXhwIjoxNzIzOTIzNTE4fQ.F8IUu8UwRglsVfqtYt_rLmhKWwvHRYcpI3x8ohx2EMc
+Content-Type: application/json
+
+{
+  "title": "task {{task}}",
+  "description": "Description for task {{task}}",
+  "statusId": 4
+}

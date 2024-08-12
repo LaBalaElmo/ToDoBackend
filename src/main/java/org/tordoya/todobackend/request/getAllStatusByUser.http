@@ -1,0 +1,3 @@
+###
+GET http://localhost:8080/api/v1/user-status/all
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJxQHEuY29tIiwiaWF0IjoxNzIzNDg1NTM5LCJleHAiOjE3MjQwODU1Mzl9.wkr0hFu6fyMfCQtybh9ErFcrqMKnphw8tk43Pbc_qhc
